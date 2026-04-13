@@ -75,7 +75,7 @@ async def tailor_resume(
 
     # 실제 AI 호출
     response = await client.chat.completions.create(
-        model="llama-3.1-8b-instant",
+        model="llama-3.3-70b-versatile",
         messages=[ # AI에게 전달하는 대화 내용
             {"role": "system", "content": system}, # system = 역할 + 규칙 + 출력 형식
             {"role": "user", "content": user_message}, # user_message = 실제 입력 데이터
