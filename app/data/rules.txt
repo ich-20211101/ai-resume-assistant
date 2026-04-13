@@ -1,0 +1,91 @@
+# Resume Tailoring Rules
+# These rules are injected into every AI prompt as guidelines.
+
+## Core Principle
+- A resume must be simple, strong, and easy to scan
+- Recruiters decide within ~30 seconds whether to continue reading
+- The goal is to capture attention with a strong summary and support it with clear, relevant evidence
+
+---
+
+## General Writing Rules
+- Always use strong action verbs (e.g., Led, Built, Optimized, Reduced, Increased)
+- Quantify achievements whenever possible (%, $, time saved, scale, users)
+- Keep all bullet points strictly one line (~100–120 characters)
+- Be concise and avoid unnecessary words
+- Use past tense for previous roles, present tense for current role
+- Do NOT invent experience, skills, or metrics
+- You may strengthen wording and emphasize impact, but must remain truthful
+
+---
+
+## Structure (Required)
+
+1. Summary
+- Most important section
+- Must be short, strong, and clearly communicate why the candidate is valuable
+- Designed to immediately capture attention
+- Focus on role relevance and core strengths
+
+2. Professional Skills
+- Include only skills directly relevant to the target role
+- Prioritize skills mentioned in the Job Description
+- Exclude unrelated or generic skills
+
+3. Experience
+- Use a simple and clean format
+- Each bullet must be one line only
+- Structure: [Action] + [What] + [Result/Impact]
+- Highlight key achievements and measurable results
+- Remove or de-emphasize irrelevant experience
+
+4. Education
+- Keep simple and minimal
+
+---
+
+## JD Alignment (Critical)
+- Always tailor the resume to the specific Job Description
+- Identify and prioritize required and preferred skills
+- Mirror important keywords from the JD naturally (no keyword stuffing)
+- Ensure resume keywords align with JD keywords
+
+---
+
+## Skills Section Rules
+- Only include skills present in the resume or clearly inferable
+- Prioritize JD-relevant skills
+- Group by category if needed (e.g., Languages, Tools, Cloud)
+
+---
+
+## Experience Bullet Rules
+- Start each bullet with a strong action verb
+- Keep every bullet to one line only (~100–120 characters)
+- Focus on impact and outcomes, not just responsibilities
+- Align bullets with JD expectations
+- If quantification is missing, suggest placeholders like "[X%]" or "[N users]"
+
+---
+
+## Keywords Extraction Rules
+- Extract hard skills, tools, technologies, and role-specific terms only
+- Exclude generic soft skills unless explicitly required in the JD
+- Identify:
+  - matched keywords (present in resume)
+  - missing keywords (present in JD but absent in resume)
+
+---
+
+## Style & Tone
+- Keep writing clear, direct, and professional
+- Avoid fluff and vague expressions
+- Prioritize clarity, impact, and readability
+- The resume should feel focused, intentional, and tailored
+
+---
+
+## Goal
+- Make the resume compelling enough for a recruiter to continue reading
+- First attract attention with a strong summary
+- Then validate it with relevant, concise, and impactful experience

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Max's AI Resume Assistant</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Max's AI Resume Assistant</h1>
+      <p class="subtitle">Tailor your resume to any job description in seconds.</p>
+    </header>
+
+    <main>
+      <!-- ── Input Section ───────────────────────────── -->
+      <section class="input-section">
+        <div class="field">
+          <label for="jd">Job Description <span class="required">*</span></label>
+          <textarea id="jd" placeholder="Paste the full job description here..." rows="8"></textarea>
+        </div>
+
+        <div class="field">
+          <label for="resume">Your Resume <span class="required">*</span></label>
+          <textarea id="resume" placeholder="Paste your current resume text here..." rows="10"></textarea>
+        </div>
+
+        <div class="field">
+          <label for="instruction">Additional Instructions <span class="optional">(optional)</span></label>
+          <textarea id="instruction" placeholder="e.g. Emphasize leadership experience. Keep summary under 3 sentences." rows="3"></textarea>
+        </div>
+
+        <button id="submit-btn" onclick="handleSubmit()">
+          <span id="btn-text">Tailor My Resume</span>
+          <span id="btn-loader" class="hidden">Generating…</span>
+        </button>
+      </section>
+
+      <!-- ── Output Section ──────────────────────────── -->
+      <section class="output-section hidden" id="output">
+
+        <div class="result-block" id="block-keywords">
+          <h2>🔑 Job Description Keywords</h2>
+          <div class="keyword-row">
+            <div>
+              <p class="kw-label matched-label">Matched</p>
+              <div id="keywords-matched" class="tag-group"></div>
+            </div>
+            <div>
+              <p class="kw-label missing-label">Missing from Resume</p>
+              <div id="keywords-missing" class="tag-group"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="result-block" id="block-summary">
+          <h2>📝 Tailored Summary</h2>
+          <p id="summary-text"></p>
+          <button class="copy-btn" onclick="copyText('summary-text')">Copy</button>
+        </div>
+
+        <div class="result-block" id="block-skills">
+          <h2>⚡ Skills</h2>
+          <div id="skills-list" class="tag-group"></div>
+          <button class="copy-btn" onclick="copySkills()">Copy</button>
+        </div>
+
+        <div class="result-block" id="block-experience">
+          <h2>💼 Experience Bullets</h2>
+          <div id="experience-list"></div>
+        </div>
+
+      </section>
+
+      <div id="error-msg" class="error hidden"></div>
+    </main>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
