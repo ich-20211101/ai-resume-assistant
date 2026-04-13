@@ -5,7 +5,7 @@ I built this project to solve a problem I actually struggled with.
 Tailoring a resume for every job application takes time, and honestly, it’s hard to stay consistent.  
 So I created a simple tool that uses AI to analyze a job description and rewrite resume content to better match it.
 
-Live Demo: https://ai-resume-assistant.onrender.com
+Live Demo: https://ai-resume-assistant-913k.onrender.com/
 
 ---
 
